@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.grocery-list, .cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.grocery-item, .cart-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button.remove {
+    background-color: #dc3545;
+}
+
+button.remove:hover {
+    background-color: #c82333;
+}
